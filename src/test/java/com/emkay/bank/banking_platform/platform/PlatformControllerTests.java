@@ -15,7 +15,7 @@ class PlatformControllerTests {
         PlatformController platform = new PlatformController();
         Map<String, Object> response = platform.status();
         assertEquals("banking_platform", response.get("service"));
-        assertEquals("UP",response.get("status"));
+        assertEquals("UP-BreakFix",response.get("status"));
     }
 
 }
